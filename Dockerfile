@@ -1,6 +1,7 @@
 FROM debian:bullseye-slim
 
 EXPOSE 2001/udp
+VOLUME /configs
 
 ENV APPID="1874900"
 ENV STEAM_USER="anonymous"
@@ -24,7 +25,9 @@ RUN apt-get update && \
     apt-get autoremove -y && \
     rm -rf /var/lib/apt/lists/* && \
     mkdir -p /steamcmd && \
-    mkdir -p /arma_reforger/profile && \
+    mkdir -p /reforger/game && \
+    mkdir -p /configs && \
+    mkdir -p /profile && \
     wget -qO- 'https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz' | tar zxf - -C /steamcmd
 
 ENV TRACY_NO_INVARIANT_CHECK=1
