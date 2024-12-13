@@ -3,9 +3,10 @@ name: Docker Image CI
 on:
   workflow_dispatch:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
     paths:
-      - entrypoint.sh
+      - setup.sh
+      - run.sh
       - Dockerfile
 
 env:
