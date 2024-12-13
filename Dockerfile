@@ -32,6 +32,7 @@ RUN apt-get update && \
 
 ENV TRACY_NO_INVARIANT_CHECK=1
 
+USER 0
 RUN /setup.sh
 
 CMD ["sh", "/run.sh"]
