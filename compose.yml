@@ -2,7 +2,7 @@ services:
     reforger:
         build:
             context: .
-        image: trainwreck-reforger
+        image: mercenary9312/trainwreck-reforger-server
         container_name: reforger
         ports:
             - "2001:2001/udp"

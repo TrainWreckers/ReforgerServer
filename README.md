@@ -18,3 +18,8 @@ Can tear it down
 ```bash
 docker compose down
 ```
+Can attach/follow logs via
+
+```bash
+docker compose logs -f
+```
