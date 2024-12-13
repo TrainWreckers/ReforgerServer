@@ -1,0 +1,78 @@
+{
+    "game": {
+        "name": "Train Wreck",
+        "password": "password",
+        "passwordAdmin": "password",
+        "scenarioId": "{2BBBE828037C6F4B}Missions/22_GM_Arland.conf",
+        "maxPlayers": 36,
+        "visible": true,
+        "crossPlatform": true,
+        "supportedPlatforms": [
+            "PLATFORM_PC",
+            "PLATFORM_XBL"
+        ],
+        "gameProperties": {
+            "serverMaxViewDistance": 2000,
+            "serverMinGrassDistance": 150,
+            "networkViewDistance": 1900,
+            "disableThirdPerson": true,
+            "fastValidation": true,
+            "battlEye": false,
+            "VONDisableUI": false,
+            "VONDisableDirectSpeechUI": false,
+            "VONCanTransmitCrossFaction": true,
+            "missionHeader": {}
+        },
+        "mods": [
+            {
+                "modId": "60C4C12DAE90727B",
+                "name": "ACE Medical"
+            },
+            {
+                "modId": "627912F23F2FC55C",
+                "name": "TrainWreck-SpawnSystem"
+            },
+            {
+                "modId": "60E573C9B04CC408",
+                "name": "ACE Backblast"
+            },
+            {
+                "modId": "628B2C593868C1A5",
+                "name": "TrainWreck-HealthSystem"
+            },
+            {
+                "modId": "60EAEA0389DB3CC2",
+                "name": "ACE Trenches"
+            },
+            {
+                "modId": "626E39840DDC4323",
+                "name": "TrainWreckLooting"
+            },
+            {
+                "modId": "60C4CE4888FF4621",
+                "name": "ACE Core"
+            },
+            {
+                "modId": "61F8FB543ECB6949",
+                "name": "TrainWreck-GM"
+            },
+            {
+                "modId": "611CB1D409001EB0",
+                "name": "ACE Magazine Repack"
+            },
+            {
+                "modId": "5DBD560C5148E1DA",
+                "name": "ACE Carrying"
+            },
+            {
+                "modId": "5994AD5A9F33BE57",
+                "name": "Game Master FX"
+            },
+            {
+                "modId": "5C73156675E11A0F",
+                "name": "GM Persistent Loadouts"
+            }
+        ]
+
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "IsEnabled": true,
+    "RespawnTimerInSeconds": 30,
+    "DamageThreshold": 30.0,
+    "UnconsciousMinTimeInSeconds": 12,
+    "UnconsciousMaxTimeInSeconds": 24,
+    "CanHighDamageCauseUnconsciousness": true
+}

@@ -1,2 +1,11 @@
 .idea
 .vscode
+
+**/addons/*
+**.log
+**.conf
+**/.save/*
+**.bin
+
+!game/profile/lootmap.json
+#!game/profile/*.json

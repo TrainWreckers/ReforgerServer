@@ -1,0 +1,30 @@
+{
+    "isEnabled": true,
+    "gridSize": 250,
+    "locations": {
+        "MDT_NAME_SETTLEMENT": {
+            "radius": 4
+        },
+        "MDT_NAME_GENERIC": {
+            "radius": 2
+        },
+        "MDT_NAME_TOWN": {
+            "radius": 5
+        },
+        "MDT_PORT": {
+            "radius": 5
+        },
+        "MDT_NAME_VILLAGE": {
+            "radius": 4
+        },
+        "MDT_BASE": {
+            "radius": 5
+        },
+        "MDT_NAME_CITY": {
+            "radius": 5
+        },
+        "MDT_AIRPORT": {
+            "radius": 5
+        }
+    }
+}
