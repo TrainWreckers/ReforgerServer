@@ -1,6 +1,6 @@
 {
     "managerType": "default",
-    "groupSize": 3,
+    "groupSize": 5,
     "spawnTimerInSeconds": 2,
     "spawnGridSize": 250,
     "spawnGridRadius": 3,
@@ -141,6 +141,10 @@
                 },
                 {
                     "PrefabName": "{FCA76613163633F8}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Sapper.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{68CD4FBA3040D726}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RandomLoot.et",
                     "Chance": 0
                 },
                 {
@@ -429,14 +433,14 @@
         },
         {
             "FactionName": "FIA",
-            "ChanceToSpawn": 25,
-            "MaxAmount": 40,
+            "ChanceToSpawn": 100,
+            "MaxAmount": 60,
             "IsEnabled": true,
             "AIWanderChance": 0.25,
             "Characters": [
                 {
                     "PrefabName": "{8515E8BD26A5D5F8}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Randomized.et",
-                    "Chance": 25
+                    "Chance": 0
                 },
                 {
                     "PrefabName": "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et",
@@ -493,6 +497,10 @@
                 {
                     "PrefabName": "{854C04F0EA2129CC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Unarmed.et",
                     "Chance": 0
+                },
+                {
+                    "PrefabName": "{B324833E300B6AD6}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RandomLoot.et",
+                    "Chance": 10
                 }
             ],
             "Vehicles": [
@@ -641,7 +649,7 @@
         },
         {
             "FactionName": "CIV",
-            "ChanceToSpawn": 10,
+            "ChanceToSpawn": 30,
             "MaxAmount": 10,
             "IsEnabled": true,
             "AIWanderChance": 0.25,
@@ -652,15 +660,15 @@
                 },
                 {
                     "PrefabName": "{B3AB6D12D247DDB5}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_Randomized.et",
-                    "Chance": 0
+                    "Chance": 10
                 },
                 {
                     "PrefabName": "{5882AE7A4543AFB4}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_Randomized.et",
-                    "Chance": 0
+                    "Chance": 10
                 },
                 {
                     "PrefabName": "{D97EAE64721478F3}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_Randomized.et",
-                    "Chance": 0
+                    "Chance": 10
                 },
                 {
                     "PrefabName": "{11EB9A0D2A5899EA}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_DenimJacket_1.et",
@@ -966,13 +974,13 @@
         {
             "FactionName": "USSR",
             "ChanceToSpawn": 10,
-            "MaxAmount": 15,
+            "MaxAmount": 2,
             "IsEnabled": true,
             "AIWanderChance": 0.25,
             "Characters": [
                 {
                     "PrefabName": "{7DE1CBA32A0225EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Randomized.et",
-                    "Chance": 10
+                    "Chance": 0
                 },
                 {
                     "PrefabName": "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et",
@@ -1165,6 +1173,10 @@
                 {
                     "PrefabName": "{730CDEC4168637B6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_Sapper.et",
                     "Chance": 0
+                },
+                {
+                    "PrefabName": "{4BD0A0203CAC9AC5}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_RandomLoot.et",
+                    "Chance": 10
                 },
                 {
                     "PrefabName": "{F063CEEB9295E9B6}Prefabs/Characters/Campaign/Final/Campaign_USSR_Player.et",
