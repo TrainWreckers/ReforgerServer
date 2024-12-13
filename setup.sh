@@ -1,0 +1,1 @@
+/steamcmd/steamcmd.sh +force_install_dir /reforger +login $STEAM_USER $STEAM_PASSWORD +app_update $APPID +exit

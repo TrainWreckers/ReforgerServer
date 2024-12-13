@@ -1,0 +1,1410 @@
+{
+    "managerType": "default",
+    "groupSize": 3,
+    "spawnTimerInSeconds": 2,
+    "spawnGridSize": 250,
+    "spawnGridRadius": 3,
+    "antiSpawnGridRadius": 2,
+    "antiSpawnGridSize": 150,
+    "garbageCollectionTimerInSeconds": 5.0,
+    "factions": [
+        {
+            "FactionName": "US",
+            "ChanceToSpawn": 0,
+            "MaxAmount": 30,
+            "IsEnabled": false,
+            "AIWanderChance": 0.25,
+            "Characters": [
+                {
+                    "PrefabName": "{5EFC243926EE6808}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Randomized.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{DE15FB5FAFC3E63F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Officer.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{0B3167BB0FB68110}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{4FBA24F7BB43E17D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{E398E44759DA1A43}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{6058AB54781A0C52}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{3726077BE60962FF}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{0F6689B491641155}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{1CA3D30464EE4674}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Spotter.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{42A502E3BB727CEB}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{15CD521098748195}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliCrew.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{371FD0F920B600DD}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Scout.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{E94CD0D20A63909E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Scout_RTO.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{AE63E4B79FB45DD1}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sapper.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{CD28EE7C5690D3BB}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Ammo.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{2F912ED6E399FF47}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{36E28C628A2F83CB}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{C0F45FA0C11853D1}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Officer.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{85261D5B04BFA7EE}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_SL.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{C110498284A5418F}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_GL.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{6E1E87ECA5F5A7EA}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_LMG.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{9A234C5857D92187}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Medic.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{5228D8F587B5EEDC}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_RTO.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{ADC2DE949F566202}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Sharpshooter.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{FCA76613163633F8}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Sapper.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/Campaign_US_Player.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{EA158B6EB6A24B4B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_Variant_1.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{07B92B5E1A781635}Prefabs/Characters/Campaign/Final/PlayerVariant/Campaign_US_Player_Variant_1.et",
+                    "Chance": 0
+                }
+            ],
+            "Vehicles": [
+                {
+                    "PrefabName": "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{86D830868F026D54}Prefabs/Vehicles/Wheeled/M151A2/M151A2_MERDC.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{94DE32169691AC34}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport_MERDC.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{6B24D5AFD884D64C}Prefabs/Vehicles/Wheeled/M998/M998_MERDC.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{B55C6990A6A9411B}Prefabs/Vehicles/Wheeled/M998/M998_covered.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{AF0578D66D51946B}Prefabs/Vehicles/Wheeled/M998/M998_covered_MERDC.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_MERDC.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{27E2E58E734A80EC}Prefabs/Vehicles/Wheeled/M998/M1025_MERDC.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{3B1EB924602C7A07}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_MERDC.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{04BDACC0BB83284E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_MERDC.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{26013123314183EA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker_MERDC.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{36BDCC88B17B3BFA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{38186F12F27A61C6}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command_MERDC.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{1FF144F8A209239D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_arsenal.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{EA4819E0745DFAEA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_arsenal_MERDC.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{EC657C9B3C73E192}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo_MERDC.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{A042ACE5C2B13206}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{C8656AECF5DF41D9}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair_MERDC.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{2D74C39A650A3030}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{37A9871AD4CC9610}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer_MERDC.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{5168FEA3054D6D15}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB_MERDC.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                }
+            ],
+            "Groups": [
+                {
+                    "PrefabName": "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{84E5BBAB25EA23E5}Prefabs/Groups/BLUFOR/Group_US_FireTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{FCF7F5DC4F83955C}Prefabs/Groups/BLUFOR/Group_US_LightFireTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{DE747BC9217D383C}Prefabs/Groups/BLUFOR/Group_US_Team_GL.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{FAEA8B9E1252F56E}Prefabs/Groups/BLUFOR/Group_US_Team_LAT.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{81B6DBF2B88545F5}Prefabs/Groups/BLUFOR/Group_US_Team_Suppress.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{958039B857396B7B}Prefabs/Groups/BLUFOR/Group_US_MachineGunTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{3BF36BDEEB33AEC9}Prefabs/Groups/BLUFOR/Group_US_SentryTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{F65B7BB712F46FEE}Prefabs/Groups/BLUFOR/Group_US_ReconTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{EF62027CC75A7459}Prefabs/Groups/BLUFOR/Group_US_MedicalSection.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{F72EF3429D8C8DF5}Prefabs/Groups/BLUFOR/Group_US_AmmoTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{9624D2B39397E148}Prefabs/Groups/BLUFOR/Group_US_SapperTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{35681BE27C302FF5}Prefabs/Groups/BLUFOR/GreenBerets/Group_US_GreenBeret_SentryTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{D0886786634E55AE}Prefabs/Groups/BLUFOR/GreenBerets/Group_US_GreenBeret_Squad.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{94B5E9E3D8E4B887}Prefabs/Groups/BLUFOR/AmbientPatrols/Group_US_FireTeam_NotSpawned.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{DA987D8C5A311713}Prefabs/Groups/BLUFOR/AmbientPatrols/Group_US_MachineGunTeam_NotSpawned.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{4F6811B5E789FA88}Prefabs/Groups/BLUFOR/AmbientPatrols/Group_US_RifleSquad_NotSpawned.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{FB7A6A8BF391D93E}Prefabs/Groups/BLUFOR/AmbientPatrols/Group_US_SentryTeam_NotSpawned.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{3EC052EA1F35DCA4}Prefabs/Groups/BLUFOR/AmbientPatrols/Group_US_Team_LAT_NotSpawned.et",
+                    "Chance": 0
+                }
+            ],
+            "Behaviors": {
+                "Attack": 0.0,
+                "DefendLocal": 90.0,
+                "Patrol": 8.0,
+                "DefendArea": 2.0
+            }
+        },
+        {
+            "FactionName": "FIA",
+            "ChanceToSpawn": 25,
+            "MaxAmount": 40,
+            "IsEnabled": true,
+            "AIWanderChance": 0.25,
+            "Characters": [
+                {
+                    "PrefabName": "{8515E8BD26A5D5F8}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Randomized.et",
+                    "Chance": 25
+                },
+                {
+                    "PrefabName": "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{FE65E8C60C751352}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_PL.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{677B515F119222C2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{D25BC9815A9F9E8D}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{FF43925D26526B95}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{CE33AB22F61F3365}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{45A02CA25CBA9443}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Medic.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{23D81C023DBF85AC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RTO.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{BF1E43FF39AA526B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Scout.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{066644E57BA1E26E}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sapper.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{48F96834C3289E04}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Ammo.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{854C04F0EA2129CC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Unarmed.et",
+                    "Chance": 0
+                }
+            ],
+            "Vehicles": [
+                {
+                    "PrefabName": "{E28501E93F8EFDC0}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA_uncovered.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{F7E9AA0C813EABDA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{22B327C6752EC4D4}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_FIA.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{E72D78E7F45532EC}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_UK59_FIA.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{16E32C3ABEAFC2C6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{B70E6D12A8EC2410}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport_covered.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{DC1C2350CF665F9E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_tanker.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{E6AEC014D162D686}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_command.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{B4A106DB440071C8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Arsenal_FIA.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{3F5D19AC3C7E20DC}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo_FIA.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{34178E3A92776DA6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_FIA.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{076B33106723D087}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer_FIA.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                }
+            ],
+            "Groups": [
+                {
+                    "PrefabName": "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{5BEA04939D148B1D}Prefabs/Groups/INDFOR/Group_FIA_FireTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{1BB20A4B3A53D0F5}Prefabs/Groups/INDFOR/Group_FIA_LightFireTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{2CC26054775FBA2C}Prefabs/Groups/INDFOR/Group_FIA_Team_AT.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{22F33D3EC8F281AB}Prefabs/Groups/INDFOR/Group_FIA_MachineGunTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{6E725D44CA973C24}Prefabs/Groups/INDFOR/Group_FIA_SentryTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{2E9C920C3ACA2C6F}Prefabs/Groups/INDFOR/Group_FIA_ReconTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{6307F42403E9B8A4}Prefabs/Groups/INDFOR/Group_FIA_SharpshooterTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{EE92725E9B949C3D}Prefabs/Groups/INDFOR/Group_FIA_PlatoonHQ.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{581106FA58919E89}Prefabs/Groups/INDFOR/Group_FIA_MedicalSection.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{C1E39427E43B1E79}Prefabs/Groups/INDFOR/Group_FIA_AmmoTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{A0E9B5D6EA2072C4}Prefabs/Groups/INDFOR/Group_FIA_SapperTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{8D5E0E187752F5FB}Prefabs/Groups/INDFOR/AmbientPatrols/Group_FIA_FireTeam_NotSpawned.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{421CA62CC2E5F16A}Prefabs/Groups/INDFOR/AmbientPatrols/Group_FIA_MachineGunTeam_NotSpawned.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{908BF313909635F2}Prefabs/Groups/INDFOR/AmbientPatrols/Group_FIA_ReconTeam_NotSpawned.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{265B11E8E53F9FBA}Prefabs/Groups/INDFOR/AmbientPatrols/Group_FIA_RifleSquad_NotSpawned.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{6F8CE29DEFA96B0D}Prefabs/Groups/INDFOR/AmbientPatrols/Group_FIA_Team_AT_NotSpawned.et",
+                    "Chance": 0
+                }
+            ],
+            "Behaviors": {
+                "Attack": 0.0,
+                "DefendLocal": 90.0,
+                "Patrol": 8.0,
+                "DefendArea": 2.0
+            }
+        },
+        {
+            "FactionName": "CIV",
+            "ChanceToSpawn": 10,
+            "MaxAmount": 10,
+            "IsEnabled": true,
+            "AIWanderChance": 0.25,
+            "Characters": [
+                {
+                    "PrefabName": "{22E43956740A6794}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized.et",
+                    "Chance": 10
+                },
+                {
+                    "PrefabName": "{B3AB6D12D247DDB5}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_Randomized.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{5882AE7A4543AFB4}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_Randomized.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{D97EAE64721478F3}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_Randomized.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{11EB9A0D2A5899EA}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_DenimJacket_1.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{3AE3C1A509298D9D}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_DenimJacket_2.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{C943F3CC53D187B6}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Turtleneck_1.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{1FFE2B88BEF51840}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Turtleneck_2.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{3A2FBAD5B929AC4B}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Turtleneck_3.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{8C7093AF368F496A}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_CottonShirt_1.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{DF7F8D5C05CC1AF6}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_CottonShirt_2.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{408B8BD5E3F09FF3}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_CottonShirt_3.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{035F8F1CEF3B187F}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_CottonShirt_4.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{E6C3C3E5E3DE8F14}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_CottonShirt_5.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{8A97F7055F1A003A}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_CottonShirt_6.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{E024A74F8A4BC644}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_1.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{A517C72CEF150898}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_2.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{626874113CAE4387}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_3.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{C6FAF52907A544AC}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_1.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{2CDFBF355F3410DD}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_2.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{2366B9D00B40D3C7}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_3.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{472F2B06FF9BF37D}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_4.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{A2B367FFF37E6416}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_5.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{CEE7531F4FBAEB38}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_6.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{6F5A71376479B353}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_1.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{C97B985FCFC3E4D6}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_2.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{2CE7D4A6C32673BD}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_3.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{11D3F19EB64AFA8A}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_4.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{F44FBD67BAAF6DE1}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_5.et",
+                    "Chance": 0
+                }
+            ],
+            "Vehicles": [
+                {
+                    "PrefabName": "{57A441224AC02CF3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_Randomized.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{1B0D46B41C50873D}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_Randomized.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{EEAC3A94929A2B55}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_randomized.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{DCAF0585D17B917A}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker_CIV_ranomized.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{49C909AFD66E90A1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_randomized.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{128253A267BE9424}Prefabs/Vehicles/Wheeled/S105/S105_randomized.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{C8B16ABCA57679A2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_blue.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{D7C51A961BF675B2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_brown.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{B6D330E7E40FE7DD}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_forest.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{BDFB2377B6B4ABBB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_PTS.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{A4D16A62B432451A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_red.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{870EB660433857D3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_teal.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{B2CC137FE424B129}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_VAK.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{9B3A89DD33FF0483}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_blue.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{270F23D61238ABC7}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_brown.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{599DFCA424399DBF}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_red.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{D4855501D5B12AF2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_teal.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{4A59DAEFE645E8A0}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker_CIV_orange.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{B3C8EC88E7782C78}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker_CIV_pohona.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{1449105FD658EDFB}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_forest.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{F66EAD0D2016B6BA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_blue.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{FB219B49A448A8EA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_JZD.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{66241E0CEDFCEDFF}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_orange.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{11A28C90DB40318D}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_red.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{543799AC5C52989C}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_beige.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{F77C41245A580FD1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_blue.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{ACED839A6C5BE657}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_brown.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{54C3CC22DEBD57BE}Prefabs/Vehicles/Wheeled/S105/S105_beige.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{A1CD41DFE0C93CAD}Prefabs/Vehicles/Wheeled/S105/S105_darkbrown.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{8EB38BBD860DA06E}Prefabs/Vehicles/Wheeled/S105/S105_lightblue.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{321016E0F9361A22}Prefabs/Vehicles/Wheeled/S105/S105_lightgreen.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{85F0BD6AF0F42D6D}Prefabs/Vehicles/Wheeled/S105/S105_red.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{63880E311299A016}Prefabs/Vehicles/Wheeled/S105/S105_white.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{A6B0D2923262E755}Prefabs/Vehicles/Wheeled/S105/S105_yellow.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                }
+            ],
+            "Groups": [],
+            "Behaviors": {
+                "Attack": 0.0,
+                "DefendLocal": 90.0,
+                "Patrol": 8.0,
+                "DefendArea": 2.0
+            }
+        },
+        {
+            "FactionName": "USSR",
+            "ChanceToSpawn": 10,
+            "MaxAmount": 15,
+            "IsEnabled": true,
+            "AIWanderChance": 0.25,
+            "Characters": [
+                {
+                    "PrefabName": "{7DE1CBA32A0225EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Randomized.et",
+                    "Chance": 10
+                },
+                {
+                    "PrefabName": "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{5117311FB822FD1F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{426F7FAAC77A2A6D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_PL.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{928DC9882A0AC79D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{5436629450D8387A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{333DA6244C7DA34C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SR.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{8E0FE664CE7D1CA9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GL.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{96C784C502AC37DA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{E9AEEF2D9E41321B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AMG.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{1C78331E156A3D65}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AT.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{631158F6898738A4}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AAT.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{976AC400219898FA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{AB9726163EC1BD81}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{612F43A4D5AE765F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_RTO.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{A62FA97C4EC64F14}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{C8FABF6F093DA775}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliCrew.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{2C490E2846A1E884}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Scout.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{0DC67B4DFFD7A361}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Scout_RTO.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{CBF7A398FE060335}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sapper.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{B31D4E408AEC99A4}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Ammo.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{98EB9CDD85B8C92C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Unarmed.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{9E9B8952B8EEC771}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Randomized_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{E8A05D5E0CEAC836}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_PL_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{FC13DAA97D49137F}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Sergeant_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{A8507C7BBAF64A71}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_SL_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{C49ED6AA2EA02B15}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_SR_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{6B00D3FC285E0AE0}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_GL_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{862E3B66D0316F0A}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AR_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{8A60AEBD529FEB8B}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_MG_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{F89D79B340033E32}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AMG_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{9A12B3F6ABDF70BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AT_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{E8EF64F8B943A507}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AAT_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{B056E800F6286831}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Sharpshooter_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{D66C215D6F03EFFD}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Medic_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{9C16A2371109644D}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_RTO_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{A70AD7146D3FBF41}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Sapper_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{77D7BFD355620806}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Ammo_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{2DB452B3EC386B92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{B2A71FE01BA567D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_Officer.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{5811F02495F6810E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_SL.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{B823C229EC3981B7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_GL.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{0B8AC0C3C447F90E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_LMG.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{8CA70597606992EC}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_Medic.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{B6A2736A7201DD23}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_RTO.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{ADB43E67E3766CE7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_Sharpshooter.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{730CDEC4168637B6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_Sapper.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{F063CEEB9295E9B6}Prefabs/Characters/Campaign/Final/Campaign_USSR_Player.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{069118B2D809C9E1}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_Variant_1.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{4F7E0952D726FB43}Prefabs/Characters/Campaign/Final/PlayerVariant/Campaign_USSR_Player_Variant_1.et",
+                    "Chance": 0
+                }
+            ],
+            "Vehicles": [
+                {
+                    "PrefabName": "{16A674FE31B0921C}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{32E77EC32ED2B6D1}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Arsenal.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{6E9142CD2471741C}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                },
+                {
+                    "PrefabName": "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et",
+                    "Chance": 0,
+                    "VehicleType": "Small"
+                }
+            ],
+            "Groups": [
+                {
+                    "PrefabName": "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{30ED11AA4F0D41E5}Prefabs/Groups/OPFOR/Group_USSR_FireGroup.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{1A5F0D93609DA5DA}Prefabs/Groups/OPFOR/Group_USSR_ManeuverGroup.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{657590C1EC9E27D3}Prefabs/Groups/OPFOR/Group_USSR_LightFireTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{43C7A28EEB660FF8}Prefabs/Groups/OPFOR/Group_USSR_Team_GL.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{96BAB56E6558788E}Prefabs/Groups/OPFOR/Group_USSR_Team_AT.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{1C0502B5729E7231}Prefabs/Groups/OPFOR/Group_USSR_Team_Suppress.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{A2F75E45C66B1C0A}Prefabs/Groups/OPFOR/Group_USSR_MachineGunTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{CB58D90EA14430AD}Prefabs/Groups/OPFOR/Group_USSR_SentryTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{0D10CCEEC7B3EC34}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{D815658156080328}Prefabs/Groups/OPFOR/Group_USSR_MedicalSection.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{C8622D0595B48437}Prefabs/Groups/OPFOR/Group_USSR_AmmoTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{BB2E6C2CC2755E9B}Prefabs/Groups/OPFOR/Group_USSR_SapperTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{97D45056CFC22FF2}Prefabs/Groups/OPFOR/KLMK/Group_USSR_RifleSquad_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{13A616F83A41C610}Prefabs/Groups/OPFOR/KLMK/Group_USSR_FireGroup_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{195CE45AF822820B}Prefabs/Groups/OPFOR/KLMK/Group_USSR_ManeuverGroup_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{5B08C42EA0661A20}Prefabs/Groups/OPFOR/KLMK/Group_USSR_LightFireTeam_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{E382595E188AF8A1}Prefabs/Groups/OPFOR/KLMK/Group_USSR_Team_GL_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{129039549B0B82FF}Prefabs/Groups/OPFOR/KLMK/Group_USSR_Team_AT_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{014B050050A8B5B5}Prefabs/Groups/OPFOR/KLMK/Group_USSR_Team_Suppress_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{56DC5F9D2D6119F2}Prefabs/Groups/OPFOR/KLMK/Group_USSR_MachineGunTeam_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{61E209AA5933AC95}Prefabs/Groups/OPFOR/KLMK/Group_USSR_SentryTeam_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{06F0C9675883F18A}Prefabs/Groups/OPFOR/KLMK/Group_USSR_ReconTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{B69270E9F222F356}Prefabs/Groups/OPFOR/KLMK/Group_USSR_PlatoonHQ_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{8E29E7581DE832CC}Prefabs/Groups/OPFOR/KLMK/Group_USSR_MedicalSection_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{17F51B6521F7194A}Prefabs/Groups/OPFOR/KLMK/Group_USSR_AmmoTeam_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{8EDE6E160E71ABB4}Prefabs/Groups/OPFOR/KLMK/Group_USSR_SapperTeam_KLMK.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{4C44B4D8F2820F25}Prefabs/Groups/OPFOR/Spetsnaz/Group_USSR_Spetsnaz_SentryTeam.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{4D3BBEC1A955626A}Prefabs/Groups/OPFOR/Spetsnaz/Group_USSR_Spetsnaz_Squad.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{EC8BAC199BAF3740}Prefabs/Groups/OPFOR/AmbientPatrols/Group_USSR_FireGroup_NotSpawned.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{06D32ED260762934}Prefabs/Groups/OPFOR/AmbientPatrols/Group_USSR_MachineGunTeam_NotSpawned.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{7159E20D1B547A4E}Prefabs/Groups/OPFOR/AmbientPatrols/Group_USSR_RifleSquad_NotSpawned.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{C54B99330F4C59F8}Prefabs/Groups/OPFOR/AmbientPatrols/Group_USSR_SentryTeam_NotSpawned.et",
+                    "Chance": 0
+                },
+                {
+                    "PrefabName": "{96FD5857FC75F022}Prefabs/Groups/OPFOR/AmbientPatrols/Group_USSR_Team_AT_NotSpawned.et",
+                    "Chance": 0
+                }
+            ],
+            "Behaviors": {
+                "Attack": 0.0,
+                "DefendLocal": 90.0,
+                "Patrol": 8.0,
+                "DefendArea": 2.0
+            }
+        }
+    ],
+    "defendWaypoint": "{C0224D9332272F79}Prefabs/AI/Waypoints/TW_AIWaypoint_DefendSmall.et",
+    "attackWaypoint": "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et",
+    "cycleWaypoint": "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et",
+    "patrolWaypoint": "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et",
+    "wanderIntervalInSeconds": 60
+}
